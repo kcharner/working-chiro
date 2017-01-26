@@ -91,13 +91,13 @@ footer {
 }
 
 .details {
-	text-align: center;
 	color: #1D2731;
 	font-weight: bold;
+	font-style: italic;
 }
 
 #footerSig {
 	font-family: Dancing Script;
-	text-align: center;
+	
 	margin-top: .5%;
 }
