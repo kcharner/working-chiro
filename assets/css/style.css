@@ -90,10 +90,15 @@ footer {
 	border-top: 1px solid #F7EF6A;
 }
 
-.details {
+.h5 {
 	color: #1D2731;
 	font-weight: bold;
 	font-style: italic;
+}
+
+.details {
+	color: #1D2731;
+	margin-bottom: 1px;
 }
 
 #footerSig {
