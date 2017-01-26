@@ -1,0 +1,103 @@
+html {
+	width: 100%;
+}
+
+.fixedBtn {
+	background-color: #1D2731;
+	border: none;
+}
+
+#fixedNav {
+	color: white;
+	background-color: #1D2731;
+	border-bottom: 1px solid #F7EF6A;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+	padding-top: 10px;
+}
+
+#test {
+	text-align: center;
+}
+
+.homeNav {
+	background-color: #CDDFCB;
+	border: none;
+	color: white; /*NOT WORKING*/
+	height: 120px;
+	border-bottom: 2px solid #F7EF6A;
+	font-size: 18px;
+	border-radius: 0;
+	margin-top: 3.5%;
+	margin-bottom: 0px;
+}
+
+#makeApp {
+	color: #E5E338;
+}
+
+#logoMain {
+	margin-top: 4%;
+	margin-left: 4%;
+	background-color: #CDDFCB;
+}
+
+#logoAlt {
+	background-color: #CDDFCB;
+	margin-left: 4%;
+	margin-top: 4%;
+}
+
+#links {
+	padding-top: 1.5%;
+	margin-right: 2%;
+}
+
+#jumboMain {
+	background-color: white;
+	height: 800px;
+	color: white;
+	background-image: url("../images/test.jpg");
+	margin-bottom: 0%;
+	font-family: Anton;
+	letter-spacing: 2px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	font-style: italic;
+}
+
+#aboutContent {
+	margin-top: 50px;
+}
+
+#meet {
+	font-family: Passion One;
+	font-size: 40px;
+}
+
+.glyphicon {
+	color: #328CC1;
+}
+
+footer {
+	width: 100%;
+	background-color: #CDDFCB;
+	border-top: 1px solid #F7EF6A;
+}
+
+.details {
+	text-align: center;
+	color: #1D2731;
+	font-weight: bold;
+}
+
+#footerSig {
+	font-family: Dancing Script;
+	text-align: center;
+	margin-top: .5%;
+}
