@@ -36,6 +36,20 @@ html {
 	color: #E5E338;
 }
 
+#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		border-radius: 24px;
+		font-size: 25px;
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-top: 1%;
+		margin-top: 7%;
+		margin-left: 13%;
+	}
+
 #logoMain {
 	margin-top: 4%;
 	margin-left: 4%;
@@ -106,3 +120,61 @@ footer {
 	
 	margin-top: .5%;
 }
+
+@media only screen and (max-width:350px) {
+	/*WORKS ON ALL PHONES*/
+	#fixedNav {
+		display: none;
+	}
+
+	.homeNav {
+		margin-top: 0%;
+	}
+
+	h3 {
+		display: none;
+	}
+
+	#makeApp {
+		font-size: 60px;
+	}
+
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 4%;
+		font-size: 18px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#logoMain {
+		margin-left: 10%;
+		margin-top: 3%;
+	}
+
+	#toggleNav {
+		margin-top: 6%;
+		margin-right: 10%;
+	}
+
+
+}
+/*end phone queries*/
+
+
+
+
+
+
+
+
+
+
+
+
+
