@@ -121,6 +121,34 @@ footer {
 	margin-top: .5%;
 }
 
+@media only screen and (max-width:1200px) {
+	#fixedNav {
+		display: none;
+	}
+
+	.homeNav {
+		margin-top: 0%;
+	}
+	
+	h3 {
+		display: none;
+	}
+
+	#logoMain {
+		margin-left: 15%;
+		margin-top: 2%;
+		width: 60%;
+	}
+
+	#toggleNav {
+		margin-top: 4%;
+		margin-right: 8%;
+	}
+
+}
+
+
+
 @media only screen and (max-width:500px) {
 	/*WORKS ON ALL PHONES*/
 	#fixedNav {
@@ -136,7 +164,7 @@ footer {
 	}
 
 	#makeApp {
-		font-size: 60px;
+		font-size: 54px;
 	}
 
 	#bookBtn {
