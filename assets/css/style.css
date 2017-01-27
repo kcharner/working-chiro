@@ -1,3 +1,5 @@
+/*DESKTOP & IPAD PRO HORIZONTAL*/
+
 html {
 	width: 100%;
 }
@@ -131,7 +133,9 @@ footer {
 	margin-top: .5%;
 }
 
+/*IPAD PRO VERTICAL*/
 @media only screen and (max-width:1200px) {
+
 	#fixedNav {
 		display: none;
 	}
@@ -142,6 +146,11 @@ footer {
 	
 	h3 {
 		display: none;
+	}
+
+	#jumboMain {
+		background-image: none;
+		background-color: #1D2731;
 	}
 
 	#logoMain {
@@ -155,28 +164,61 @@ footer {
 		margin-right: 8%;
 	}
 
+	#bookBtn {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+/* END IPAD PRO VERTICAL*/
+
+@media only screen and (max-width:750px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 12%;
+		width: 50%;
+	}
+
+	#makeApp {
+		margin-top: 4%;
+	}
+	
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 3%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#jumboMain {
+		background-image: url("../images/test.jpg");
+	}
+
 }
 
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:700px) {
 
+	#logoMain {
+		margin-left: 8%;
+		width: 50%;
+	}
 
+}
+
+/*MOBILE VERTICAL*/
 @media only screen and (max-width:500px) {
-	/*WORKS ON ALL PHONES*/
 
-	#fixedNav {
-		display: none;
+	#makeApp {
+		margin-top: 10%;
 	}
-
-	.homeNav {
-		margin-top: 0%;
-	}
-
-	h3 {
-		display: none;
-	}
-
-	/*#makeApp {
-		font-size: 90px;
-	}*/
 
 	#bookBtn {
 		text-align: center;
@@ -195,16 +237,18 @@ footer {
 		margin-left: 10%;
 		margin-top: 6%;
 		margin-bottom: 2%;
+		width: 65%;
 	}
 
 	#toggleNav {
 		margin-top: 6%;
-		margin-right: 10%;
+		margin-right: 8%;
 	}
 
-
 }
-/*end phone queries*/
+
+
+/*END MOBILE VERTICAL*/
 
 
 
