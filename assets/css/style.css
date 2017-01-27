@@ -121,7 +121,7 @@ footer {
 	margin-top: .5%;
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:500px) {
 	/*WORKS ON ALL PHONES*/
 	#fixedNav {
 		display: none;
