@@ -4,34 +4,44 @@ html {
 	width: 100%;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #0288D1;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+a {
+	color: white;
+	font-size: 16px;
+}
+
 .fixedBtn {
-	background-color: #1D2731;
+	background-color: #4ABDAC;
 	border: none;
 	margin-right: 10%;
-	color: #328CC1;
+	color: white;
+	font-size: 16px;
 }
 
 #fixedNav {
-	color: white;
-	background-color: #1D2731;
-	border-bottom: 1px solid #F7EF6A;
+	background-color: #4ABDAC;
+	border-bottom: 1.5px solid #A7FFEB;
 	margin-bottom: 0%;
 	padding-bottom: 0%;
 	padding-top: 10px;
 }
 
-#test {
+#highlights {
 	text-align: center;
 }
 
 .homeNav {
-
-	background-color: #CFD8DC;
-	/*background-color: #CDDFCB;*/
+	background-color: white;
 	border: none;
 	color: white; /*NOT WORKING*/
 	height: 120px;
-	border-bottom: 2px solid #F7EF6A;
+	border-bottom: 2px solid #B4FFDA;
 	font-size: 18px;
 	border-radius: 0;
 	margin-top: 3.5%;
@@ -42,18 +52,20 @@ h3 {
 	margin-top: 15%;
 	margin-left: 9%;
 	letter-spacing: 1.5%;
+	color: #B4FFDA;
 	/*font-size: 20px;*/
 }
 
 #makeApp {
-	color: #E5E338;
-	margin-top: 17%;
+	color: white;
+	margin-top: 15%;
 }
 
 #bookBtn {
 		text-align: center;
-		border: none;
-		background-color: #0375B4;
+		border: 1px solid #40c4ff;
+		color: white;
+		background-color: #0288D1;
 		font-family: arial;
 		border-radius: 24px;
 		font-size: 25px;
@@ -61,20 +73,21 @@ h3 {
 		padding-right: 4%;
 		padding-top: 1%;
 		margin-top: 7%;
-		margin-left: 22%;
+		margin-left: 28%;
 	}
 
 #logoMain {
 	margin-top: 4%;
-	margin-left: 4%;
-	background-color: #CFD8DC;
-	/*background-color: #CDDFCB;*/
+	margin-left: 12%;
 }
 
 #logoAlt {
-	background-color: #CDDFCB;
 	margin-left: 4%;
 	margin-top: 4%;
+}
+
+ul {
+	color: white;
 }
 
 #links {
@@ -100,33 +113,38 @@ h1 {
 	font-style: italic;
 }
 
-#aboutContent {
-	margin-top: 50px;
+#meetDrBrent {
+	margin-top: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 2px solid #B4FFDA;
+	background-color: #88BBD6;
+	color: white; 
 }
 
-#meet {
-	font-family: Passion One;
-	font-size: 40px;
+#tagline {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .glyphicon {
-	color: #328CC1;
+	color: white;
 }
 
 footer {
 	width: 100%;
-	background-color: #CFD8DC;
-	border-top: 1px solid #F7EF6A;
+	border-top: 1px solid #B4FFDA;
+	/*background-color: #99D3EF;*/
+	color: black;
 }
 
 .h5 {
-	color: #1D2731;
 	font-weight: bold;
 	font-style: italic;
 }
 
 .details {
-	color: #1D2731;
 	margin-bottom: 1px;
 }
 
