@@ -119,7 +119,7 @@ h1 {
 	padding-bottom: 2%;
 	border-bottom: 2px solid #B4FFDA;
 	/*background-color: #88BBD6;*/
-	background-color: #8CCBE3;
+	background-color: #457bb8;
 	color: white; 
 }
 
@@ -154,8 +154,8 @@ footer {
 }
 
 #footerSig {
-	font-family: Dancing Script;
-	
+	font-family: Sacramento;
+	font-size: 20px;
 	margin-top: .5%;
 }
 
