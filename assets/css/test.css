@@ -1,0 +1,313 @@
+/*DESKTOP & IPAD PRO HORIZONTAL*/
+
+html {
+	width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #0288D1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+	color: white;
+	font-size: 16px;
+}
+
+.fixedBtn {
+	background-color: #4ABDAC;
+	border: none;
+	margin-right: 10%;
+	color: white;
+	font-size: 16px;
+}
+
+#fixedNav {
+	background-color: #4ABDAC;
+	border-bottom: 1px solid #008F95;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+	padding-top: 10px;
+}
+
+#highlights {
+	text-align: center;
+}
+
+.homeNav {
+	background-color: white;
+	border: none;
+	border-top: 1.5px solid #A7FFEB;
+	border-bottom: 2px solid #B4FFDA;
+	font-size: 18px;
+	border-radius: 0;
+	margin-top: 3.5%;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin-top: 15%;
+	margin-left: 9%;
+	letter-spacing: 1.5%;
+	color: #B4FFDA;
+	/*font-size: 20px;*/
+}
+
+#makeApp {
+	color: white;
+	margin-top: 15%;
+}
+
+#bookBtn {
+		text-align: center;
+		border: 1px solid #40c4ff;
+		color: white;
+		background-color: #0288D1;
+		font-family: arial;
+		border-radius: 24px;
+		font-size: 25px;
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-top: 1%;
+		margin-top: 7%;
+		margin-left: 28%;
+	}
+
+#logoMain {
+	margin-top: 4%;
+	margin-left: 12%;
+}
+
+#logoAlt {
+	margin-left: 4%;
+	margin-top: 4%;
+}
+
+ul {
+	color: white;
+}
+
+#links {
+	padding-top: 1.5%;
+	margin-right: 2%;
+}
+
+#jumboMain {
+	background-color: white;
+	height: 800px;
+	color: white;
+	background-image: url("../images/test.jpg");
+	margin-bottom: 0%;
+	font-family: Anton;
+	letter-spacing: 2px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	font-style: italic;
+}
+
+#headline {
+	margin-top: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 2px solid #B4FFDA;
+	/*background-color: #88BBD6;*/
+	background-color: #457bb8;
+	color: white; 
+}
+
+#tagline {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.glyphicon {
+	color: white;
+}
+
+#content {
+	height: 700px;
+}
+
+footer {
+	width: 100%;
+	border-top: 1px solid #B4FFDA;
+	/*background-color: #99D3EF;*/
+	color: black;
+}
+
+.h5 {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.details {
+	margin-bottom: 1px;
+}
+
+#footerSig {
+	font-family: Sacramento;
+	font-size: 20px;
+	margin-top: .5%;
+}
+.navbar-header
+{
+	background-color: white;
+}
+/*IPAD PRO VERTICAL*/
+@media only screen and (max-width:1100px) {
+
+	#fixedNav {
+		display: none;
+	}
+
+	.homeNav {
+		margin-top: 0%;
+	}
+	
+	h3 {
+		display: none;
+	}
+
+	#jumboMain {
+		background-image: none;
+		background-color: #1D2731;
+	}
+
+	#logoMain {
+		margin-left: 15%;
+		margin-top: 2%;
+		width: 60%;
+	}
+
+	#toggleNav {
+		margin-top: 4%;
+		margin-right: 8%;
+	}
+
+	#bookBtn {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+/* END IPAD PRO VERTICAL*/
+
+/*IPAD VERTICAL*/
+@media only screen and (max-width:1050px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 50%;
+		width: 35%;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 12%;
+		width: 50%;
+	}
+
+	#makeApp {
+		margin-top: 4%;
+	}
+	
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 3%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#jumboMain {
+		background-image: url("../images/test.jpg");
+	}
+
+}
+
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:700px) {
+
+	#logoMain {
+		margin-left: 8%;
+		width: 50%;
+	}
+
+}
+
+/*MOBILE VERTICAL*/
+@media only screen and (max-width:500px) {
+
+	#makeApp {
+		margin-top: 10%;
+	}
+
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 4%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#logoMain {
+		margin-left: 10%;
+		margin-top: 6%;
+		margin-bottom: 2%;
+		width: 65%;
+	}
+
+	#toggleNav {
+		margin-top: 6%;
+		margin-right: 8%;
+	}
+
+}
+
+/*IPHONE5 VERTICAL*/
+@media only screen and (max-width:350px) {
+
+	#bookBtn {
+		font-size: 16px;
+	}
+	
+
+}
+/*END MOBILE VERTICAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
