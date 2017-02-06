@@ -38,8 +38,6 @@ a {
 .homeNav {
 	background-color: white;
 	border: none;
-	color: white; /*NOT WORKING*/
-	height: 120px;
 	border-top: 1.5px solid #A7FFEB;
 	border-bottom: 2px solid #B4FFDA;
 	font-size: 18px;

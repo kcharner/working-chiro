@@ -10,58 +10,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<nav class="navbar navbar-default" id="fixedNav">
-			<ul id="highlights">
-				<button class="col-lg-3 fixedBtn">
-				<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-				<a href="appoints.html"> APPOINTMENTS</a></button>
-				<button class="col-lg-3 fixedBtn">
-				<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-				<a href="testimonials.html"> TESTIMONIALS</a></button>
-			</ul>
-			<span class="nav navbar-nav navbar-right fixedBtn">
-			<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: 760-268-1072</span>
-			<!-- <ul class="nav navbar-nav navbar-right">
-				<li>SOCIAL</li>
-				<li>MEDIA</li>
-				<li>LINKS</li>
-				<li>HERE</li>
-			</ul> -->
-</nav>
-
-<nav class="navbar navbar-default">
-	<div class="container-fluid">
-	  	<div class="navbar-header">
-	  		<a href="index.html"><img id="logoAlt" src="assets/images/logo.png"></a>
-	  		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-		   		 <span class="sr-only">Toggle navigation</span>
-		   		 <span class="icon-bar"></span>
-		         <span class="icon-bar"></span>
-		         <span class="icon-bar"></span>
-      		</button>
-	  	</div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-          <ul class="dropdown-menu">
-			 <li><a href="care.html">History of Chiropractic Care</a></li>
-			 <li id="test"><a href="#">Services</a></li>
-			 <li><a href="#">More Services</a></li>
-			 <li><a href="#">And Still More Services</a></li>
-		  </ul>
-			
-			  	<li><a href="about.html">About Dr. Brent</a></li>
-			   	<li><a href="appoints.html">Appointments</a></li>	       
-			  	<li><a href="testimonials.html">Testimonials</a></li>
-			    <li><a href="contact.html">Contact</a></li>
+	<nav class="navbar navbar-default navbar-fixed-top" id="fixedNav">
+		<ul class= "col-lg-6" id="highlights">
+			<button class="fixedBtn">
+			<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+			<a href="appoints.html"> APPOINTMENTS</a></button>
+			<button class="fixedBtn">
+			<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+			<a href="testimonials.html"> TESTIMONIALS</a></button>
 		</ul>
-      </ul>
-    </div>
-  </div>
-
-</nav>
+		<span class="nav navbar-nav navbar-right fixedBtn">
+		<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: 760-268-1072</span>
+				<!-- <ul class="nav navbar-nav navbar-right">
+					<li>SOCIAL</li>
+					<li>MEDIA</li>
+					<li>LINKS</li>
+					<li>HERE</li>
+				</ul> -->
+	</nav>
+	<!--start primary navbar-->
+	<nav class="navbar navbar-default homeNav">
+	  	<div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a href="index.html"><img id="logoAlt" src="assets/images/logo.png"></a>
+		    </div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     	<ul class="nav navbar-nav navbar-right" id="links">
+		        	<li class="dropdown"> <!--first dropdown-->
+		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chiropractic Care<span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                    <li><a href="care.html">History of Chiropractic Care</a></li>
+		                    <li><a href="#">Services</a></li>
+		                    <li><a href="#">More Services</a></li>
+		                    <li><a href="#">And Still More Services</a></li>
+		                </ul>
+		            </li> 
+		            <li><a href="about.html">About Dr. Brent</a></li>
+					<li class="dropdown"> <!--second dropdown-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="appoints.html">New Patients</a></li>
+							<li><a href="appoints.html">Schedule Online</a></li>
+						</ul>
+					</li>       
+		            <li><a href="testimonials.html">Testimonials</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		      	</ul>
+	    	</div>
+	 	</div>
+	</nav>
 
 	<section>
 		<h1 id="headline">Chiropractic Care</h1>
