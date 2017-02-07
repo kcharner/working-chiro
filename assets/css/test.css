@@ -59,6 +59,20 @@ h3 {
 	margin-top: 15%;
 }
 
+#mapView {
+	width: 35%;
+	margin-left: 10%
+	margin-right: 5%;
+	padding: 0%;
+}
+
+#officeView {
+	width: 35%;
+	margin-left: 5%
+	margin-right: 10%;
+	padding: 0%;
+}
+
 #bookBtn {
 		text-align: center;
 		border: 1px solid #40c4ff;
@@ -75,13 +89,17 @@ h3 {
 	}
 
 #logoMain {
-	margin-top: 4%;
+	margin-top: 0%;
+	padding-top: 4%;
+	padding-bottom: 4%;
 	margin-left: 12%;
 }
 
 #logoAlt {
-	margin-left: 4%;
-	margin-top: 4%;
+	margin-top: 0%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 12%;
 }
 
 ul {
@@ -138,8 +156,9 @@ h1 {
 footer {
 	width: 100%;
 	border-top: 1px solid #B4FFDA;
-	/*background-color: #99D3EF;*/
+	text-align: center;
 	color: black;
+	clear: both;
 }
 
 .h5 {
