@@ -134,9 +134,15 @@ h1 {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	border-bottom: 2px solid #B4FFDA;
-	/*background-color: #88BBD6;*/
-	background-color: #457bb8;
+	background-color: #457BB8;
 	color: white; 
+}
+
+.subHeaders {
+	text-align: center;
+	background-color: #B2DFDB;
+	padding: 1%;
+	border: 1px solid #B4FFDA;
 }
 
 #tagline {
