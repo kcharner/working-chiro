@@ -1,5 +1,4 @@
-$(document).ready(function(){
-		
+$(document).ready(function(){		
 	var offset = 49;	
 	$(document).on("click", ".nav-link", function(){
 	    var section = $(this).attr("href");
@@ -8,7 +7,6 @@ $(document).ready(function(){
 	        scrollTop: $(section).offset().top - offset
 	    });
 	});
-
 });
 
 
