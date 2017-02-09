@@ -53,8 +53,8 @@
 					<li class="dropdown"> <!--second dropdown-->
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="appoints.html">New Patients</a></li>
-							<li><a href="appoints.html">Appointments</a></li>
+							<li><a href="#sectionOne" class="nav-link">New Patients</a></li>
+							<li><a href="#sectionTwo" class="nav-link">Appointments</a></li>
 						</ul>
 					</li>       
 		            <li><a href="testimonials.html">Testimonials</a></li>
@@ -66,10 +66,8 @@
 
 	<section>
 		<h1 id="headline">Patients</h1>
-
-		<div class="content">
+		<div class="content" id="sectionOne">
 			<h2 class="subHeaders">New Patients - What To Expect</h2>
-
 			<div class="container">
 				<h2 class="subHeaders">New Patients - What To Expect</h2>
 					<P>For your first visit, please plan on arriving approximately 10-15 minutes prior to your scheduled appointment time in order to fill out some brief paperwork. This will provide us with some of the necessary general information regarding you and your health history.</P>
@@ -104,6 +102,11 @@
 
 		<div class="container">
 
+		</div>
+		<div class="parallax">
+		 	<div class="parallax-inner"></div>
+		</div>
+		<div class="content" id="sectionTwo">
 			<h2 class="subHeaders">Appointments</h2>
 			<div class="col-lg-10 col-lg-offset-1" id="content">
 				<iframe src="https://evolvesportschiropractic.acuityscheduling.com/" width="100%" height="600" frameborder="0" style="max-height: none; overflow:hidden; height: 698px !important;"></iframe>
@@ -135,8 +138,9 @@
         	</div>
        	</div>
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="parallax.js"></script>	
+<script type="text/javascript" src="assets/js/parallax.js"></script>	
+
 </body>
 </html>
