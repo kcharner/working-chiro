@@ -12,12 +12,13 @@
 </head>
 <body>
 	<!--start fixed navbar-->
+	<div id="top-link-target"></div>
 	<nav class="navbar navbar-default navbar-fixed-top" id="fixedNav">
 			<ul class="col-lg-6" id="highlights">
-				<button class="fixedBtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><a href="appoints.html"> APPOINTMENTS</a></button>
+				<button class="fixedBtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><a href="appoints.html#appointments"> APPOINTMENTS</a></button>
 				<button class="fixedBtn"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="testimonials.html"> TESTIMONIALS</a></button>
 			</ul>
-			<p class="nav navbar-nav navbar-right fixedBtn"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: 760-268-1072</p>
+			<p class="nav navbar-nav navbar-right fixedBtn"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: <a href="tel:760-268-1072">760-268-1072</a></p>
 			<!-- <ul class="nav navbar-nav navbar-right">
 				<li>SOCIAL</li>
 				<li>MEDIA</li>
@@ -43,18 +44,18 @@
 		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chiropractic Care<span class="caret"></span></a>
 		                <ul class="dropdown-menu">
 		                    <li><a href="care.html">Services</a></li>
-		                    <li><a href="#">Performance Care</a></li>
-		                    <li><a href="#">Specialty Techniques</a></li>
-		                    <li><a href="#">Spinal Decompression</a></li>
-		                    <li><a href="#">History of Chiropractic Care</a></li>
+		                    <li><a href="care.html#performance-care">Performance Care</a></li>
+		                    <li><a href="care.html#specialty-techniques">Specialty Techniques</a></li>
+		                    <li><a href="care.html#spinal-decompression">Spinal Decompression</a></li>
+		                    <li><a href="care.html#history">History of Chiropractic Care</a></li>
 		                </ul>
 		            </li> 
 		            <li><a href="about.html">About Dr. Brent</a></li>
 					<li class="dropdown"> <!--second dropdown-->
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#sectionOne" class="nav-link">New Patients</a></li>
-							<li><a href="#sectionTwo" class="nav-link">Appointments</a></li>
+							<li><a href="#new-patients" class="nav-link">New Patients</a></li>
+							<li><a href="appoints.html#appointments" class="nav-link">Appointments</a></li>
 						</ul>
 					</li>       
 		            <li><a href="testimonials.html">Testimonials</a></li>
@@ -66,8 +67,7 @@
 
 	<section>
 		<h1 id="headline">Patients</h1>
-		<div class="content" id="sectionOne">
-			<h2 class="subHeaders">New Patients - What To Expect</h2>
+		<div class="content" id="new-patients">
 			<div class="container">
 				<h2 class="subHeaders">New Patients - What To Expect</h2>
 					<P>For your first visit, please plan on arriving approximately 10-15 minutes prior to your scheduled appointment time in order to fill out some brief paperwork. This will provide us with some of the necessary general information regarding you and your health history.</P>
@@ -92,25 +92,27 @@
 			<div class="container">
 				<h4>Follow-Up</h4>
 				<p>The frequency of your follow up visits will be determined by the severity of your condition, as well as your own progression of recovery, which we monitor with each visit and adapt as indicated. Although each individual can differ, your very first follow up visit will generally be scheduled within a day or two of your initial patient examination. All treatment and therapy details, expected length of treatment, the cost involved, and all other related matters regarding your treatment that may not have been covered at your initial visit with us will be discussed. Follow up visits should also be used as another opportunity for you to ask any questions you may have regarding your condition, exam findings and/or your care.</p>
+				<br>
+				<a href="#top-link-target" class="nav-link top-link">Top</a>
 			</div>
-
 		</div>
 		<div class="parallax">
 		 	<div class="parallax-inner"></div>
 		</div>
-		<div class="content">
-
-		<div class="container">
-
-		</div>
-		<div class="parallax">
-		 	<div class="parallax-inner"></div>
-		</div>
-		<div class="content" id="sectionTwo">
+		<div class="content offset" id="appointments">
 			<h2 class="subHeaders">Appointments</h2>
-			<div class="col-lg-10 col-lg-offset-1" id="content">
-				<iframe src="https://evolvesportschiropractic.acuityscheduling.com/" width="100%" height="600" frameborder="0" style="max-height: none; overflow:hidden; height: 698px !important;"></iframe>
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1" id="content">
+					<iframe src="https://evolvesportschiropractic.acuityscheduling.com/" width="100%" height="600" frameborder="0" style="max-height: none; overflow:hidden; height: 698px !important;"></iframe>
+					<br>
+					<a href="#top-link-target" class="nav-link top-link">Top</a>
+				</div>
 			</div>
+		<!-- 	<div class="row">
+				<div class="col-lg-10 col-lg-offset-1">
+					<a href="#top-link-target" class="nav-link top-link">Top</a>
+				</div>
+			</div> -->
 		</div>
 	</section>
 	<!--start footer-->
@@ -118,8 +120,7 @@
     	<div class="container">
     		<div class="col-lg-4">
     			<h5 class="h5">LOCATION</h5>
-    			<p class="details">7220 Avenida Encinas #110</p>
-    			<p class="details">Carlsbad, CA 92011</p>
+    			<a href="contact.html" class="details">7220 Avenida Encinas #110<br>Carlsbad, CA</a>
     		</div>
     		<div class="col-lg-4">
     			<h5 class="h5">HOURS</h5>
