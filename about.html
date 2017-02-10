@@ -13,10 +13,10 @@
 	<!--start fixed navbar: contains highlights-->
 	<nav class="navbar navbar-default navbar-fixed-top" id="fixedNav">
 		<ul class="col-lg-6" id="highlights">
-			<button class="fixedBtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><a href="appoints.html"> APPOINTMENTS</a></button>
+			<button class="fixedBtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><a href="appoints.html#appointments"> APPOINTMENTS</a></button>
 			<button class="fixedBtn"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="testimonials.html"> TESTIMONIALS</a></button>
 		</ul>
-		<p class="nav navbar-nav navbar-right fixedBtn"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: 760-268-1072</p>
+		<p class="nav navbar-nav navbar-right fixedBtn"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: <a href="tel:760-268-1072">760-268-1072</a></p>
 		<!-- <ul class="nav navbar-nav navbar-right">
 			<li>SOCIAL</li>
 			<li>MEDIA</li>
@@ -42,10 +42,10 @@
 		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chiropractic Care<span class="caret"></span></a>
 		                <ul class="dropdown-menu">
 		                    <li><a href="care.html">Services</a></li>
-		                    <li><a href="#">Performance Care</a></li>
-		                    <li><a href="#">Specialty Techniques</a></li>
-		                    <li><a href="#">Spinal Decompression</a></li>
-		                    <li><a href="#">History of Chiropractic Care</a></li>
+		                    <li><a href="care.html#performance-care">Performance Care</a></li>
+		                    <li><a href="care.html#specialty-techniques">Specialty Techniques</a></li>
+		                    <li><a href="care.html#spinal-decompression">Spinal Decompression</a></li>
+		                    <li><a href="care.html#history">History of Chiropractic Care</a></li>
 		                </ul>
 		            </li> 
 		            <li><a href="about.html">About Dr. Brent</a></li>
@@ -53,7 +53,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="appoints.html">New Patients</a></li>
-							<li><a href="appoints.html">Appointments</a></li>
+							<li><a href="appoints.html#appointments">Appointments</a></li>
 						</ul>
 					</li>       
 		            <li><a href="testimonials.html">Testimonials</a></li>
@@ -73,6 +73,39 @@
 			<p>In his spare time, Dr. Brent enjoys competing in triathlons, hiking, horseback riding or snowboarding in the Sierras, traveling the globe, and spending time with his wonderful wife Alessandra, their family and friends.</p>
 		</div>
 		<div class="col-lg-3 col-lg-offset-1">
+<<<<<<< HEAD
+			<!-- <ol>
+				<li data-target="#medium-headshot" data-slide="next"></li>
+				<li data-target="#doc-1" data-slide="next"></li>
+				<li data-target="#doc-2" data-slide="next"></li>
+				<li data-target="#medium-headshot" data-slide="next"></li>
+			</ol> -->
+			<div id="image-carousel" class="carousel slide">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+			 	<div class="carousel-inner" role="listbox">
+			    	<div class="carousel-item active">
+			      		<img class="d-block img-fluid" src="assets/images/carousel/medium-headshot.jpg" alt="Slide 1">
+			    	</div>
+			    	<div class="item">
+			      		<img class="d-block img-fluid" src="assets/images/carousel/doc-1.jpg" alt="Slide two">
+			    	</div>
+			   		<div class="item">
+			      		<img class="d-block img-fluid" src="assets/images/carousel/doc-2.jpg" alt="Slide 3">
+			   		</div>
+			    	<div class="item">
+			      		<img class="d-block img-fluid" src="assets/images/carousel/leg.jpg" alt="Slide 4">
+			    	</div>
+			  	</div>
+			</div>
+
+
+
+			<p>Credential/Specialties to Go HERE</p>
+=======
 			<p>Picture to Go HERE</p>
 			<p>
 				<ul class="credsList">
@@ -100,6 +133,7 @@
 					</ul>
 				</div>
 			</p>
+>>>>>>> master
 		</div>
 	</section>
 	<!--start footer-->
@@ -107,8 +141,7 @@
     	<div class="container">
     		<div class="col-lg-4">
     			<h5 class="h5">LOCATION</h5>
-    			<p class="details">7220 Avenida Encinas #110</p>
-    			<p class="details">Carlsbad, CA 92011</p>
+    			<a href="contact.html" class="details">7220 Avenida Encinas #110<br>Carlsbad, CA</a>
     		</div>
     		<div class="col-lg-4">
     			<h5 class="h5">HOURS</h5>
@@ -127,7 +160,14 @@
         	</div> -->
        	</div>
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+  		$("#image-carousel").carousel();
+  		interval: 2000
+	});
+
+</script>	
 </body>
 </html>
