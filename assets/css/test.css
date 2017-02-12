@@ -1,4 +1,16 @@
 /*DESKTOP & IPAD PRO HORIZONTAL*/
+/*body {
+	font-family: Raleway;
+}*/
+
+.bio {
+	font-family: Raleway;
+	font-size: 18px;
+}
+
+#summary {
+	padding: 0px;
+}
 
 html {
 	width: 100%;
@@ -13,10 +25,6 @@ html {
 a {
 	color: white;
 	font-size: 16px;
-}
-
-#scarTissue {
-	color: black;
 }
 
 .fixedBtn {
@@ -50,17 +58,30 @@ a {
 	margin-bottom: 0px;
 }
 
-h3 {
-	margin-top: 15%;
-	margin-left: 9%;
+#quote {
 	letter-spacing: 1.5%;
-	color: #B4FFDA;
-	/*font-size: 20px;*/
+	color: #008F95;
+	text-align: center;
+	background-color: #B2DFDB;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	font-family: Anton;
+	font-style: italic;
+	border-bottom: 2px solid #B4FFDA;
+}
+
+#homeContent {
+	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
 
 #makeApp {
 	color: white;
-	margin-top: 15%;
+	margin-top: 260px;
+	width:80%;
+	margin-left: 10%;
 }
 
 #mapView {
@@ -83,11 +104,9 @@ h3 {
 		font-family: arial;
 		border-radius: 24px;
 		font-size: 25px;
-		padding-left: 4%;
-		padding-right: 4%;
-		padding-top: 1%;
-		margin-top: 7%;
-		margin-left: 28%;
+		width:35%;
+		margin-left: 32.5%;
+		margin-top: 30px;
 	}
 
 #logoMain {
@@ -104,8 +123,25 @@ h3 {
 	margin-left: 12%;
 }
 
-.credsList {
+.listItems {
 	color: black;
+	font-weight: bold;
+	font-style: italic; 
+}
+
+#credentials {
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#methods {
+	margin-top: 5%;
+	color: black;
+}
+
+.carousel-inner {
+	border: 1px solid grey;
+	width: 300px;
 }
 
 ul {
@@ -119,14 +155,34 @@ ul {
 
 #jumboMain {
 	background-color: white;
-	height: 800px;
+	background-size: 100%;
+	height:525px;
 	color: white;
-	background-image: url("../images/test.jpg");
+	background-image: url("../images/testa.jpg");
 	margin-bottom: 0%;
 	font-family: Anton;
 	letter-spacing: 2px;
 	padding: 0px;
 	margin: 0px;
+}
+
+#introVideo {
+	width:100%;
+	min-height: 525px;
+	padding: 0px;
+	margin: 0px;
+}
+.nopadding {
+	padding:0px;
+}
+
+#feed {
+	width:80%;
+	margin-left: 10%;
+}
+
+#feedDiv {
+	background-color: #B2DFDB;
 }
 
 h1 {
@@ -150,26 +206,31 @@ h1 {
 	padding: 1%;
 	border: 1px solid #B4FFDA;
 	margin-top: 0%;
+	font-family: Oswald;
+}
+
+.careInfo {
+	font-size: 15px;
 }
 
 #tagline {
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
+	font-family: Oswald;
+	font-weight: bold;
+	margin-bottom: 2.5%;
 }
 
 .glyphicon {
 	color: white;
 }
 
-/*#content {
-	height: 700px;
-}*/
-
 .emailUs {
 	text-align: center;
 	font-size: 25px;
 	text-decoration: underline;
+	font-family: Oswald;
 }
 
 #closed {
